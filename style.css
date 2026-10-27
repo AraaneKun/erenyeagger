@@ -1,0 +1,45 @@
+h1{
+    color: gold;
+    font-size: 128px;
+}
+
+.bleuciel{
+    color: rgb(7, 156, 156);
+}
+
+.vertspotify{
+    color: #1DB954;
+}
+
+.gras{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+
+.centrer{
+    text-align: center;
+}
+.bgred{
+    background-color: rgb(161, 23, 23, 0.8);
+    border-radius: 14px;
+    padding: 8px 10px;
+}
+.bgimg{
+    background-image:  url(images/aot-s4-p2-11.jpg);
+    width: 1920; 
+    size: 1077;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+.droite{
+    text-align: right;
+}
+.tailletxt18{
+    font-size: 20px;
+}
+img{
+    border-radius: 14px;
+}
