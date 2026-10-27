@@ -1,14 +1,34 @@
 h1{
     color: gold;
+    -webkit-text-stroke: 0.1px black;
+    font-family: 'linotext' serif;
     font-size: 128px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+@font-face{
+  font-family: 'linotext';
+  src: url('fonts/Linotext_Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.titre{
+  font-family: 'linotext', serif;
 }
 
 .bleuciel{
-    color: rgb(7, 156, 156);
+    color: gold;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 32px;
 }
 
 .vertspotify{
     color: #1DB954;
+    -webkit-text-stroke: 0.5px black;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .gras{
@@ -21,25 +41,57 @@ h1{
 .centrer{
     text-align: center;
 }
+
 .bgred{
-    background-color: rgb(161, 23, 23, 0.8);
+    background-color: linear-gradient(to bottom, #e8e8e8, #b0b0b0, #7a7a7a);
+    background: linear-gradient(to bottom, #e8e8e8, #b0b0b0, #7a7a7a);
     border-radius: 14px;
     padding: 8px 10px;
 }
+
 .bgimg{
     background-image:  url(images/aot-s4-p2-11.jpg);
-    width: 1920; 
-    size: 1077;
-    background-size: auto;
-    background-repeat: no-repeat;
     border-radius: 14px;
 }
+
 .droite{
     text-align: right;
 }
+
 .tailletxt18{
     font-size: 20px;
 }
+
 img{
     border-radius: 14px;
 }
+
+.iframe{
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.icones {
+  display: flex;
+  gap: 20px;
+  align-items: left;
+  justify-content: flex-end;
+}
+
+.icones a{
+  display: block;
+}
+
+.icones img{
+  width: 48px;
+}
+
+header{
+  background: linear-gradient(to bottom, #e8e8e8, #b0b0b0, #7a7a7a);
+  background: linear-gradient(to bottom, #e8e8e8, #b0b0b0, #7a7a7a);
+  border-radius: 0 0 16px 16px;
+  padding: 15px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 0;
+}
+
