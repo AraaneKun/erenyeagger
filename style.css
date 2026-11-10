@@ -3,8 +3,6 @@ h1{
     -webkit-text-stroke: 0.1px black;
     font-family: 'linotext' serif;
     font-size: 128px;
-    margin-top: 0;
-    margin-bottom: 15px;
 }
 
 @font-face{
@@ -50,7 +48,11 @@ h1{
 }
 
 .bgimg{
-    background-image:  url(images/aot-s4-p2-11.jpg);
+    background-image: url(images/aot-s4-p2-11.jpg);
+    background-position: 100%;
+    background-size: 100vh;
+    height: 100%;
+    background-repeat: no-repeat;
     border-radius: 14px;
 }
 
